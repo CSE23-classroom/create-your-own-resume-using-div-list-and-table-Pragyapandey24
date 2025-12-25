@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Web Page</title>
+    <style>
+        header,footer{
+            height:60px;
+            display:flex;
+            background-color: rgb(27, 27, 27);
+        }
+        p,h5{
+            color: white;
+            font-size: 14px;
+        }
+        div{
+           color: white;
+           margin-top: 6px;
+           margin-left: 10px;
+           
+        }
+        select{
+            height: 40px;
+            margin-top: 5px;
+            margin-left: 30px;
+
+        }
+        input{
+            width: 680px;
+            margin-top: 5px;
+            height: 36px;
+        }
+        button{
+            height: 40px;
+            margin-top: 5px;
+        }
+        .div1{
+            background-color: rgb(5, 59, 79);
+            color: white;
+            display:flex;
+            margin-top: 0px;
+            margin-left: 0px;
+            height: 40px;
+        }
+        a{
+            margin-left: 15px;
+        }
+        
+        .body{
+            background-image:url("cinderella.png");
+            background-size: cover;
+            margin: 0px;
+            height: 845px;
+        }
+        .card1,.card2,.card3{
+            height: 390px;
+            width: 350px;
+            margin-top: 100px;
+            background-color: rgb(249, 225, 232);
+            color: black;
+            
+        }
+        .body1{
+            margin-left: 850px;
+            padding-top: 100px;
+            font-size: 60px;
+        }
+        
+        .cards{
+          display: grid;
+          grid-template-columns: repeat(4,1fr);
+        }
+        .subcard1{
+            width: 150px;
+            height: 130px;
+            background-color: black;
+            
+        }
+        .div2{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+        #img1{
+            background-image: url(coats.webp);
+            background-size: cover;
+            
+        }
+        #img2{
+            background-image: url(accessories.jpg);
+            background-size: cover;
+        }
+        #img3{
+            background-image: url(boots.webp);
+            background-size: cover;
+        }
+        #img4{
+            background-image: url(sweaters.webp);
+            background-size: cover;
+        }
+        .card4{
+            display: grid;
+            grid-template-rows: repeat(1,1fr);
+            margin-right: 15px;
+        }
+        .sign{
+            height: 130px;
+            background-color: white;
+            margin-top:100px ;
+            color: black;
+            padding-left: 15px;
+
+        }
+        #button2{
+            width: 310px;
+            background-color: rgb(205, 156, 9);
+            border-radius: 9px;
+            border-color: rgb(205, 156, 9);
+        }
+        .gift{
+            height: 200px;
+            background-image: url(giftcard.jpg);
+            background-size: cover;
+        }
+        #img5{
+            background-image: url(dumball.jpg);
+            background-size: cover;
+        }
+        #img6{
+            background-image: url(yoga.jpg);
+            background-size: cover;
+        }
+        #img7{
+            background-image: url(health.webp);
+            background-size: cover;
+        }
+        #img8{
+            background-image: url(sunglasses.jpg);
+            background-size: cover;
+        }
+       .h1{
+        background-color: rgb(28, 46, 71);
+        width:1505px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+        margin-bottom: 0px;
+       }
+       .h2{
+        background-color: rgb(33, 29, 56);
+        width:1505px;
+        height:500px;
+        margin: 0px;
+        margin-top: 0px;
+        display: flex;
+       }
+       .f1{
+        margin-left: 265px;
+        margin-right: 80px;
+       }
+       .f3{
+        margin-left: 80px;
+        margin-right: 80px;
+       }
+       .h3{
+        background-color: rgb(33, 29, 56);
+        width:1505px;
+
+       }
+       
+    </style>
+</head>
+<body>
+    <header>
+    <img src="amazon-logo.webp" width="90px">
+    <div>
+    <div>Deliver to</div>
+    <div>Los Angeles</div>
+    </div>
+    <div class="search">
+        <select placeholder="all">
+            <option>All</option>
+            <option>color</option>
+        </select>
+        <input >
+        <button>Search</button>
+    </div>
+    <div>
+        <div>Hello,Sign in</div>
+        <div><b>Account & Lists</b></div>
+    </div>
+    <div>
+        <div>Returns </div>
+        <div><b>& Orders</b></div>
+    </div>
+    </header>
+    <div class="div1">
+        <div><a><b>All</b></a></div>
+        <div><a>Best Sellers</a>
+        <a>Amazon Basics</a>
+        <a>New Releases</a>
+        <a>Today's Deals</a>
+        <a>Customers Services</a>
+        <a>Prime</a>
+        <a>Books</a>
+        <a>Registry</a>
+        <a>Gift Cards</a>
+        <a>Toys & Games</a>
+        <a>Fashion</a>
+        <a>Kindle Books</a>
+        <a>Amazon Home</a>
+        </div>
+    </div>
+    
+    <div class="body">
+        <div class="body1">Watch characters <br>as unique as you are<br>
+        <img src="prime video.png" width="80px"></div>
+        <div class="cards">
+        <div class="card1">
+            <h2>Cozy winter style for her</h2>
+            <div class="div2">
+            <div class="subcard1" id="img1"></div>
+            <div class="subcard1" id="img2"></div>
+            <div class="subcard1" id="img3"></div>
+            <div class="subcard1" id="img4"></div>
+            </div>
+        </div>
+        <div class="card2">
+            <h2>Bring in the fresh energy</h2>
+            <div class="div2">
+            <div class="subcard1" id="img5"></div>
+            
+            <div class="subcard1" id="img6"></div>
+            <div class="subcard1" id="img7"></div>
+            <div class="subcard1" id="img8"></div>
+            </div>
+        </div>
+        <div class="card3">
+            <h2>Must-see fashion deals</h2>
+            <div class="div2">
+            <div class="subcard1" id="img9"></div>
+            <div class="subcard1" id="img10"></div>
+            <div class="subcard1" id="img11"></div>
+            <div class="subcard1" id="img12"></div>
+            </div>
+        </div>
+        <div class="card4">
+            <div class="sign">
+                <h3>Sign in for the better experiance</h3>
+                <button id="button2">Sign in securely</button>
+            </div>
+            <div class="gift">
+
+            </div>
+        </div>
+        </div>
+    </div>
+    <footer>
+        <div class="h1">Back to top</div>
+        
+    </footer>
+    <footer>
+        <div class="h2">
+            <div class="f1">
+                <h4>Get to Know Us</h4>
+                <a>About us</a><br>
+                <a>Careers</a><br>
+                <a>Press Releases</a><br>
+                <a>Amazon Science</a><br>
+            </div>
+            <div class="f2">
+                <h4>Connect with Us</h4>
+                <a>Facebook</a><br>
+                <a>Twitter</a><br>
+                <a>Instagram</a><br>
+            </div>
+            <div class="f3">
+                <h4>Make Money with Us</h4>
+                <a>Sell on Amazon</a><br>
+                <a>Sell under Amazon Accelerator</a><br>
+                <a>Protect and Build your Brand</a><br>
+                <a>Amazon Global Selling </a><br>
+                <a>Become an Affiliate</a><br>
+                <a>Fulfilmentnby Amazon</a><br>
+                <a>Advertise Your Products</a><br>
+                <a>Amazon Pay on Merchants</a><br>
+            </div>
+            <div>
+                <h4>Let Us Help You</h4>
+                <a>COVID-19 and Amazon</a><br>
+                <a>Your Account</a><br>
+                <a>Returns Centre</a><br>
+                <a>100% Purchase Protection</a><br>
+                <a>Amazon App Download</a><br>
+                <a>Help</a><br>
+            </div>
+        </div> 
+    </footer>
+    
+</body>
+</html>
